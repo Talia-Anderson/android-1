@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">labAndroid</string>
+    <string name="add_currency">Добавить валюту</string>
+    <string name="edit_currency">Редактировать</string>
+    <string name="delete_currency">Удалить</string>
+    <string name="refresh_rate">Обновить курс</string>
+    <string name="currency_code_hint">USD, EUR, GBP...</string>
+</resources>
