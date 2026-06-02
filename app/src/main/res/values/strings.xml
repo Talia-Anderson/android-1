@@ -5,4 +5,10 @@
     <string name="delete_currency">Удалить</string>
     <string name="refresh_rate">Обновить курс</string>
     <string name="currency_code_hint">USD, EUR, GBP...</string>
+    <string name="filter_hint">Фильтр по коду или названию</string>
+    <string name="sort_label">Сортировка</string>
+    <string name="refresh_button">Обновить</string>
+    <string name="refresh_history">Обновить историю</string>
+    <string name="history_title_with_code">История курса: %1$s</string>
+    <string name="favorite">Избранное</string>
 </resources>

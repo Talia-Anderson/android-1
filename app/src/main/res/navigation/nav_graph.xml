@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/currencyListFragment">
+
+    <fragment
+        android:id="@+id/currencyListFragment"
+        android:name="com.example.labandroid.ui.fragment.CurrencyListFragment"
+        android:label="CurrencyListFragment">
+        <action
+            android:id="@+id/action_currencyListFragment_to_currencyHistoryFragment"
+            app:destination="@id/currencyHistoryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/currencyHistoryFragment"
+        android:name="com.example.labandroid.ui.fragment.CurrencyHistoryFragment"
+        android:label="CurrencyHistoryFragment">
+        <argument
+            android:name="currencyId"
+            app:argType="string" />
+        <argument
+            android:name="currencyCode"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,7 +1,11 @@
 // build.gradle.kts (Project: labAndroid)
 plugins {
-    id("com.android.application") version "8.5.0" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.kapt) apply false
+    alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.hilt.android) apply false
+    alias(libs.plugins.androidx.navigation.safeargs.kotlin) apply false
 }
 
 tasks.register("clean", Delete::class) {
